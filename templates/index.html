@@ -1,0 +1,13 @@
+<h1>Index Page</h1>
+
+<p>This is the index page content</p>
+
+<p>My name is {{first_name}}</p>
+
+<p>{{stuff | safe}}</p>
+
+<h3>Favourite pizza toppings</h3>
+
+{% for toppings in favourite_pizza %}
+   <li>{{toppings}}</li> 
+{% endfor %}
